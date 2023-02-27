@@ -8,6 +8,8 @@ body{
     margin: 0;
     padding: 0;
     background: #000;
+    display: flex;
+    justify-content: center;
 }
 .container{
     border: 1px solid gray;
@@ -15,7 +17,6 @@ body{
     width: 26rem;
     height: 54rem;
     background-color: #000;
-    margin: 5rem 0 0 50rem;
 }
 .container h5{
     margin: 1em 0 2em 9em;
