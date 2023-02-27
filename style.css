@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+.container{
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 26rem;
+    height: 54rem;
+    background-color: #000;
+    margin: 5rem 0 0 50rem;
+}
+.container h5{
+    margin: 1em 0 2em 9em;
+    color:#fff ;
+    
+    font-size: 18px;
+}
+input{
+    border-radius: 10px;
+    margin: 0 0 2em 8em;
+    background-color: #7e7e7e;
+    border: 1px solid #7e7e7e;
+}
+
+.grids{
+    display: grid;
+    grid-template: repeat(5,7em) / repeat(2,10em);
+    row-gap: 1.5em;
+    column-gap: 1.5em;
+    justify-content: center;
+}
+.grids p{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 650;
+    margin: 4.5rem 0 1rem 0.7rem;
+}
+.box{
+    background-color: aqua;
+    justify-items: stretch;
+    align-items: stretch;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    
+}
+.box-one{
+    background: url(./images/rihanna1.jfif);
+    background-position: center;
+    background-size: cover;
+    justify-items: stretch;
+    align-items: stretch;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.box-two{
+    background: url(./images/world\ wide.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-items: stretch;
+    align-items: stretch;
+    border: 1px solid transparent;
+    border-radius: 10px
+}
+.box-three{
+    background: url(./images/hits.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-items: stretch;
+    align-items: stretch;
+    border: 1px solid transparent;
+    border-radius: 10px
+}
+.box-four{
+    background: url(./images/sing.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-items: stretch;
+    align-items: stretch;
+    border: 1px solid transparent;
+    border-radius: 10px
+}
+.box-five{
+    background: url(./images/spatial\ audio.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-items: stretch;
+    align-items: stretch;
+    border: 1px solid transparent;
+    border-radius: 10px
+}
+.box-six{
+    background: url(./images/charts.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-items: stretch;
+    align-items: stretch;
+    border: 1px solid transparent;
+    border-radius: 10px
+}
+.box-seven{
+    background: url(./images/chill.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-items: stretch;
+    align-items: stretch;
+    border: 1px solid transparent;
+    border-radius: 10px
+}
+.box-eight{
+    background: url(./images/beats.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-items: stretch;
+    align-items: stretch;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.box-nine{
+    background: url(./images/davido.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-items: stretch;
+    align-items: stretch;
+    border: 1px solid transparent;
+    border-radius: 10px
+}
+.box-ten{
+    background: url(./images/pop.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-items: stretch;
+    align-items: stretch;
+    border: 1px solid transparent;
+    border-radius: 10px
+}
